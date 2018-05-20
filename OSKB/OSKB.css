@@ -46,11 +46,67 @@
     background-color:               purple;
 }
 
-
 .LOC02-LC2-T-01
 {
+    display:                        grid;
+    
+    
+    
     height:                         25%;
     width:                          100%;
     margin:                         1rem 0;
     background-color: green;
 }
+
+LOC02-LC2
+{
+    grid-template-areas:            "KBB-Q KBB-W KBB-E KBB-R KBB-T KBB-Y KBB-U KBB-I KBB-O KBB-P";
+}
+
+
+
+
+#KBB-Q
+{
+    grid-area:                      KBB-Q;
+}
+
+#KBB-W
+{
+    grid-area:                      KBB-W;
+}
+
+#KBB-R
+{
+    grid-area:                      KBB-T;
+}
+
+#KBB-Y
+{
+    grid-area:                      KBB-Y;
+}
+
+#KBB-U
+{
+    grid-area:                      KBB-U;
+}
+
+#KBB-I
+{
+    grid-area:                      KBB-I;
+}
+
+#KBB-O
+{
+    grid-area:                      KBB-O;
+}
+
+#KBB-P
+{
+    grid-area:                      KBB-P;
+}
+#KBB-Q
+{
+    grid-area:                      KBB-Q;
+}
+
