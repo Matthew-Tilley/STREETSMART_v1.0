@@ -1,0 +1,22 @@
+#MOD01
+{
+    height:                         100vh;
+    width:                          100vw;
+}
+
+
+#MOD01-LOC01
+{
+    height:                         50vh;
+    width:                          100vw;
+    
+    background-color:               red;
+}
+
+#MOD02-LOC02
+{
+    height:                         50vh;
+    width:                          100vw;
+    
+    background-color:               #303030;
+}
