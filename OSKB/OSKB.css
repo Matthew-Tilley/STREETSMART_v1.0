@@ -15,6 +15,10 @@
 
 #LOC02
 {
+    display:                        flex;
+    justify-content:                space-between;
+    align-items:                    center;
+    
     height:                         50vh;
     width:                          100vw;
     
