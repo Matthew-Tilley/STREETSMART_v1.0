@@ -14,9 +14,89 @@
 }
 
 
-.LOC-01-T-01
+#LOC-01-01
 {
-    display:                        flex;
-    justify-content:                space-around;
+    display:                        grid;
+    grid-template-areas:            KBB-Q KBB-W KBB-E KBB-R KBB-T KBB-Y KBB-U KBB-I KBB-O KBB-P;
+    
     
 }
+
+
+.LOC-01-02
+{
+    display: none;
+}
+
+.LOC-01-03
+{
+    display: none;
+}
+
+
+
+
+/*BUTTONS*/
+
+.KBBU-T-01
+{
+    width:                          5vw;
+    height:                         7vh;
+}
+
+#KBB-Q
+{
+    grid-area:                      KBB-Q;
+}
+
+#KBB-W
+{
+    grid-area:                      KBB-W;
+}
+
+
+#KBB-E
+{
+    grid-area:                      KBB-E;
+}
+
+#KBB-R
+{
+    grid-area:                      KBB-R;
+}
+
+#KBB-T
+{
+    grid-area:                      KBB-T;
+}
+
+
+#KBB-Y
+{
+    grid-area:                      KBB-Y;
+}
+
+
+#KBB-U
+{
+    grid-area:                      KBB-U;
+}
+
+
+#KBB-I
+{
+    grid-area:                      KBB-I;
+}
+
+
+#KBB-O
+{
+    grid-area:                      KBB-O;
+}
+
+
+#KBB-P
+{
+    grid-area:                      KBB-P;
+}
+
